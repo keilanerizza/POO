@@ -1,6 +1,8 @@
+package aula0602;
+
 import java.util.Scanner;
 
-//Escreva um programa Java para ler um número inteiro do teclado e
+//Escreva um programa Java para ler um nï¿½mero inteiro do teclado e
 //imprimi-lo na tela.
 public class ex1 {
 

@@ -1,7 +1,10 @@
+package aula0602;
+
+import .*;
 import java.util.Scanner;
 
-//Escreva um programa Java para ler os valores de quatro números N1, N2,
-//N3 e N4. Calcule e imprima o valor da média aritmética dos mesmos.
+//Escreva um programa Java para ler os valores de quatro nï¿½meros N1, N2,
+//N3 e N4. Calcule e imprima o valor da mï¿½dia aritmï¿½tica dos mesmos.
 public class ex3 {
 
 	public static void main(String[] args) {

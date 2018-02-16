@@ -1,7 +1,10 @@
+package aula0602;
+
+import .*;
 import java.util.Scanner;
 
-//Escreva um programa Java para ler duas medidas de um retângulo. O
-//programa deve mostrar o perímetro e a área do retângulo a partir das
+//Escreva um programa Java para ler duas medidas de um retï¿½ngulo. O
+//programa deve mostrar o perï¿½metro e a ï¿½rea do retï¿½ngulo a partir das
 //medidas recebidas.
 public class ex2 {
 

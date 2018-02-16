@@ -1,5 +1,9 @@
+package aula0602;
+
+import .*;
+
 //(while) Escreva um programa Java capaz de mostrar na tela do
-//computador a seqüência de números de 1 a 100.
+//computador a seqï¿½ï¿½ncia de nï¿½meros de 1 a 100.
 public class ex5 {
 
 	public static void main(String[] args) {

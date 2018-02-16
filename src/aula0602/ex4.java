@@ -1,9 +1,12 @@
+package aula0602;
+
+import .*;
 import java.util.Scanner;
 
 //(estrutura condicional) Escreva um programa Java para ler os valores de
-//quatro números N1, N2, N3 e N4. Calcule e imprima o valor da média
-//aritmética dos mesmos. Imprimir também uma mensagem de "aprovado"
-//ou "reprovado" no caso da média ser maior ou igual a seis, ou menor,
+//quatro nï¿½meros N1, N2, N3 e N4. Calcule e imprima o valor da mï¿½dia
+//aritmï¿½tica dos mesmos. Imprimir tambï¿½m uma mensagem de "aprovado"
+//ou "reprovado" no caso da mï¿½dia ser maior ou igual a seis, ou menor,
 //respectivamente.
 
 public class ex4 {

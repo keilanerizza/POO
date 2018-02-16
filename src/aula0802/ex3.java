@@ -15,7 +15,7 @@ class Paciente {
     
     // Assinatura double calcularIMC()
     // Efeito Retorna o índice de massa corpórea do paciente usando a fórmula: peso/altura2
-    double calcularIMC() {
+    //double calcularIMC() {
         
-    }
+    //}
 }

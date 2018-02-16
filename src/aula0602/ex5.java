@@ -1,6 +1,5 @@
 package aula0602;
 
-import .*;
 
 //(while) Escreva um programa Java capaz de mostrar na tela do
 //computador a seq��ncia de n�meros de 1 a 100.

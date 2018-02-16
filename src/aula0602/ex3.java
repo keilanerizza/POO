@@ -1,6 +1,5 @@
 package aula0602;
 
-import .*;
 import java.util.Scanner;
 
 //Escreva um programa Java para ler os valores de quatro n�meros N1, N2,

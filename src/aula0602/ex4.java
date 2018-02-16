@@ -1,6 +1,5 @@
 package aula0602;
 
-import .*;
 import java.util.Scanner;
 
 //(estrutura condicional) Escreva um programa Java para ler os valores de

@@ -1,21 +1,23 @@
-//1.3. (atributo) Escreva uma classe para representar um paciente com atributos para armazenar nome, peso e altura.
 package aula0802;
 
-public class ex3 {
-    
-    public static void main(String[] args){
-        
-    }
-}
+import java.util.Scanner;
 
-class Paciente {
-    String nome;
-    double peso;
-    double altura;
-    
-    // Assinatura double calcularIMC()
-    // Efeito Retorna o índice de massa corpórea do paciente usando a fórmula: peso/altura2
-    //double calcularIMC() {
-        
-    //}
+public class ex3 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String palavra1 = scanner.nextLine();
+		String palavra2 = scanner.nextLine();
+		
+		if(palavra1.equals(palavra2)) {
+			System.out.println("igual");
+		} else {
+			System.out.println("diferente");
+		}
+		
+		System.out.println(palavra1.toUpperCase());
+
+	}
+
 }

@@ -1,7 +1,6 @@
 //1.1. (atributo) Escreva uma classe para representar um círculo com um atributo chamado raio.
 package aula1502;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class ex1 {

@@ -3,18 +3,20 @@
 //diaDoAniversario (tipo String). Use encapsulamento e forneça construtor padrão e
 //construtor usando todos os atributos para as duas classes.
 
-package aula0603;
+package aula0603.ex2;
 
-public class Ex2Amigo extends Ex2Pessoa {
+public class Amigo extends Pessoa {
 	
 	private String diaDoAniversario;
-	
-	public Ex2Amigo() {
+
+	public Amigo() {
 		super();
 	}
 
-	public Ex2Amigo(String diaDoAniversario) {
-		super();
-		this.diaDoAniversario = diaDoAniversario;
+	public Amigo(String nome, char sexo, int idade, String dia) {
+		super(nome, sexo, idade);
+		diaDoAniversario = dia;
 	}
+	
+	
 }

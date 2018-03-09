@@ -6,24 +6,32 @@
 //como parâmetros o nome e o sobrenome da pessoa e armazena respectivamente nos atributos nome
 //e sobrenome.
 
-package aula0603;
+package aula0603.ex3;
 
-public class Ex3Pessoa {
+public class Pessoa {
 
 	private String nome, sobrenome;
 	
-	public Ex3Pessoa() {
+	public Pessoa() {
 		super();
 	}
 	
-	public Ex3Pessoa(String nome, String sobrenome) {
+	public Pessoa(String nome, String sobrenome) {
 		super();
 		this.nome = nome;
 		this.sobrenome = sobrenome;
 	}
 
 	public String getNomeCompleto() {
-		return this.nome + this.sobrenome;
+		return nome + " " + sobrenome;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getSobrenome() {
+		return sobrenome;
 	}
 
 }

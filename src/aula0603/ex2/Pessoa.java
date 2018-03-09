@@ -1,24 +1,35 @@
 //(herança) Escreva uma classe chamada Pessoa com os atributos: nome (tipo String), sexo
 //(tipo char), idade (tipo int).
 
-package aula0603;
+package aula0603.ex2;
 
-public class Ex2Pessoa {
+public class Pessoa {
 	
 	private String nome;
 	private char sexo;
 	private int idade;
 	
-	public Ex2Pessoa(String nome, char sexo, int idade) {
+	public Pessoa() {
+		super();
+	}
+	
+	public Pessoa(String nome, char sexo, int idade) {
 		super();
 		this.nome = nome;
 		this.sexo = sexo;
 		this.idade = idade;
 	}
 	
-	public Ex2Pessoa() {
-		super();
+	public String getNome() {
+		return nome;
 	}
-	
-	
+
+	public char getSexo() {
+		return sexo;
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
 }

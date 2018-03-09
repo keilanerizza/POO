@@ -1,14 +1,14 @@
 //Uma subclasse de Pessoa, chamada Funcionario. A classe Funcionario deve ter os
 //atributos matricula (tipo int) e salario (tipo double). Use encapsulamento.
 
-package aula0603;
+package aula0603.ex3;
 
-public class Ex3Funcionario extends Ex3Pessoa {
+public class Funcionario extends Pessoa {
 
 	private int matricula;
 	private double salario;
 	
-	public Ex3Funcionario() {
+	public Funcionario() {
 		super();
 	}
 	
@@ -16,9 +16,15 @@ public class Ex3Funcionario extends Ex3Pessoa {
 	//Efeito Atribui ao atributo salário o valor recebido como parâmetro desde que este valor
 	//não seja negativo. Caso seja negativo, não faz nada.
 
+	public Funcionario(String nome, String sobrenome, int matricula, double salario) {
+		super(nome, sobrenome);
+		this.matricula = matricula;
+		this.salario = salario;
+	}
+
 	public void setSalario(int valor) {
 		if (valor > 0) {
-			this.salario = valor;
+			salario = valor;
 		}
 
 	}
@@ -33,14 +39,14 @@ public class Ex3Funcionario extends Ex3Pessoa {
 	//Assinatura double getSalarioPrimeiraParcela()
 	//Efeito Retorna o valor da primeira parcela do salário (60%)
 	public double getSalarioPrimeiraParcela() {
-		return (this.salario * 0.6);
+		return (salario * 0.6);
 	}
 	
 	//Assinatura double getSalarioSegundaParcela()
 	//Efeito Retorna o valor da segunda parcela do salário (40%)
 	
 	public double getSalarioSegundaParcela() {
-		return (this.salario * 0.4);
+		return (salario * 0.4);
 	}
 }
 

@@ -10,14 +10,14 @@ public class Programa {
 
 	public static void main(String[] args) {
 		ArrayList<FormaGeometrica> fg = new ArrayList<FormaGeometrica>();
-		
+
 		Retangulos retangulo = new Retangulos(3, 4);
 		fg.add(retangulo);
-		
+
 		Circulos circulo = new Circulos(5);
 		fg.add(circulo);
-		
-		for(FormaGeometrica  forma : fg) {
+
+		for (FormaGeometrica forma : fg) {
 			System.out.println("perimetro = " + forma.calcularPerimetro() + "   area = " + forma.calcularArea());
 		}
 	}

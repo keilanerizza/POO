@@ -9,7 +9,7 @@ public class Supervisor extends Funcionario{
 	}
 	
 	public double calculaSalario() {
-		salario = getSalarioBase() * 1.5 + getIncentivo();
+		salario = getSalarioBase() * 1.5;
 		
 		return salario;
 	}

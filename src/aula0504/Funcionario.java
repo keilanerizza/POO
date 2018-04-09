@@ -4,16 +4,11 @@ public abstract class Funcionario {
 
 	private String nome;
 	private double salarioBase;
-	private double incentivo = 150;
 
 	public Funcionario(String nome, double salarioBase) {
 		super();
 		this.nome = nome;
 		this.salarioBase = salarioBase;
-	}
-
-	public double getIncentivo() {
-		return incentivo;
 	}
 
 	public String getNome() {

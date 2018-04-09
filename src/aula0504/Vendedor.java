@@ -14,9 +14,9 @@ public class Vendedor extends Funcionario {
 	public double calculaSalario() {
 		
 		if (totalVendas > meta)
-			salario = getSalarioBase() + (totalVendas * 0.03) + 50 + getIncentivo();
+			salario = getSalarioBase() + (totalVendas * 0.03) + 50;
 		else
-			salario = getSalarioBase() + (totalVendas * 0.03) + getIncentivo();
+			salario = getSalarioBase() + (totalVendas * 0.03);
 		
 		return salario;
 	}

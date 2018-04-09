@@ -8,7 +8,7 @@ public class Assistente extends Funcionario {
 	}
 
 	public double calculaSalario() {
-		salario = getSalarioBase() + getIncentivo();
+		salario = getSalarioBase();
 
 		return salario;
 	}

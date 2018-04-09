@@ -19,7 +19,7 @@ public class Sistema {
 		funcionarios.add(gabriel);
 		
 		for (Funcionario funcionario : funcionarios) {
-			System.out.println("\nFuncionario: "+funcionario.getNome()+" - Salario: "+ funcionario.calculaSalario());
+			System.out.println("\nFuncionario: "+funcionario.getNome()+" - Salario: "+ calculadora.calcula(funcionario));
 		}
 	}
 }

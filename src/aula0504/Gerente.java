@@ -10,7 +10,7 @@ public class Gerente extends Funcionario {
 	}
 	
 	public double calculaSalario() {
-		salario = 2 * getSalarioBase() + getIncentivo();
+		salario = 2 * getSalarioBase();
 		
 		return salario;
 	}

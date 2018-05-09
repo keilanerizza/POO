@@ -2,10 +2,10 @@ package Design_Pattern.Strategy.estatistica;
 
 import java.util.Random;
 
-public class Amostrador {
+public class SelecionaMetodo {
 	private int[] populacao;
 
-	public Amostrador(int[] codigosZip) {
+	public SelecionaMetodo(int[] codigosZip) {
 		populacao = codigosZip;
 	}
 

@@ -3,6 +3,7 @@ package designPattern.chainOfResponsability;
 public abstract class ChainMoeda {
 	
 	private ChainMoeda proximo;
+	static int valorCapturado;
 
 	public ChainMoeda getProximo() {
 		return proximo;
@@ -12,7 +13,11 @@ public abstract class ChainMoeda {
 		this.proximo = proximo;
 	}
 	
-	abstract double troco(Conta conta);
+	protected int valorCapturado() {
+		return valorCapturado;
+	}
+	
+	abstract void calculaTroco(int v);
 	
 	
 }

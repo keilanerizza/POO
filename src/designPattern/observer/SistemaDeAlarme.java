@@ -11,6 +11,10 @@ public class SistemaDeAlarme {
 		observadores.add(novoObservador);
 	}
 	
+	void removeObservador(Observador novoObservador) {
+		observadores.remove(novoObservador);
+	}
+	
 	void monitoraTemperatura() {
 		
 		Random random = new Random(); 
